@@ -1,0 +1,191 @@
+/* Variables */
+:root {
+    --basic-white: #FFFFFF;
+    --basik-black: #000000;
+    --blue: #81B3D3;
+    --light-blue: #81B3D2;
+    --grey: #EEEEEE;
+    --darker-grey: #766458;
+    --dark-grey: #766357;
+    --light-grey: #F2F2F2;
+    --black: #231F20;
+}
+/* Global */
+body {
+    min-width: 1200px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: var(--basik-black);
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Main navigation */
+.main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--basik-black);
+    background-color: var(--basic-white);
+}
+.center {
+    background-color: transparent;
+}
+.site-navigation {
+    list-style: none;
+}
+.site-navigation-current a:not([href]) {
+    background-color: var(--basic-white);
+}
+.site-navigation a {
+    color: var(--basik-black);
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+    background-color: var(--grey);
+}
+/*features*/
+.features {
+    text-align: center;
+}
+.features h2 {
+    font-size: 21px;
+    line-height: 26px;
+}
+.features  h3 {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 200;
+}
+/*causes-list*/
+.causes-list {
+    list-style: none;
+}
+.causes-item {
+    text-align: center;
+}
+.causes-list h4 {
+    font-size: 21px;
+    line-height: 21px;
+}
+.causes-list p {
+    font-size: 14px;
+    list-style: 21px;
+    font-weight: 200;
+}
+/*suggestion on the map*/
+.suggestion-on-the-map {
+    text-align: center;
+}
+.suggestion-on-the-map h3 {
+    font-size: 30px;
+    line-height: 24px;
+}   
+.suggestion-on-the-map p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+}
+/*features-list*/
+.features-list {
+    text-align: center;
+}
+.features-item {
+    list-style: none;
+}
+.features-item h4 {
+    font-size: 21px;
+    line-height: 21px;
+}
+.features-item p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 200;
+}
+/*button*/
+.button {
+    font: inherit;
+    text-align: center;
+    color: var(--basic-white);
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: var(--light-blue);
+    border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: var(--dark-grey);
+}
+.button.disabled,
+.button:disabled {
+    cursor: default;
+    opacity: 0,5;
+    background-color: var(--light-blue);
+}
+/*search*/
+.search {
+    text-align: center;
+}
+.search-info {
+    font-size: 21px;
+    line-height: 26px;
+    color: var(--basic-white);
+    background-color: var(--dark-grey);
+}
+.search-info p {
+    font: inherit;
+    background-color: var(--light-grey);
+}
+/*main footer*/
+.main-footer {
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+    opacity: 0,5;
+    text-align: center;
+}
+.footer-contacts a {
+    color: var(--basik-black);
+    font-size: 21px;
+    line-height: 26px;
+}
+.footer-hashtag {
+    font-size: 21px;
+    line-height: 26px;
+}
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+.footer-social {
+    text-align: center;
+}
+.footer-social ul {
+    list-style: none;
+}
+/*social button*/
+.social-button {
+    color: var(--light-blue);
+}
+.social-button:hover,
+.social-button:focus {
+  background-color: var(--light-grey);
+}
+
+.footer-copyright a{
+  color: var(--black);
+}
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+  color: var(--basic-black);
+  background-color: var(--grey);
+}
