@@ -170,6 +170,7 @@ img {
     font-size: 21px;
     line-height: 26px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 .footer-contacts a:hover,
 .footer-contacts a:focus {
@@ -198,3 +199,124 @@ img {
   color: var(--basic-black);
   background-color: var(--grey);
 }
+.web {
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+/*filter*/
+.filter {
+    background-image: url("/img/background.png");
+    color: var(--basic-white);
+}
+.inf {
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.infrastructure {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    list-style: none;
+}
+.housing {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    list-style: none;
+}
+.cost {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    list-style: none;
+}
+.button {
+    font: inherit;
+    text-align: center;
+    color: var(--basic-white);
+    vertical-align: middle;
+    text-transform: uppercase;
+    border:solid var(--basic-white) 2px;
+    border-radius: 2px;
+    width: 137px;
+    height: 36px;
+    background: none;
+}
+.sort {
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.sorting li {
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    list-style: none;
+    opacity: 0.3;
+    text-decoration: underline;
+}
+li.selected-filter {
+    color: var(--light-blue);
+    text-decoration: none;
+    opacity: 1;
+}
+.find {
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    list-style: none;
+}
+/*found*/
+.found {
+    list-style: none;
+}
+.name {
+    font-size: 21px;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.variety {
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.button.blue {
+    background-color: var(--light-blue);
+    width: 110px;
+    height: 27px;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.button.grey {
+    background-color: var(--dark-grey);
+    width: 142px;
+    height: 27px;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.rating {
+    background-color: var(--light-grey);
+    width: 110px;
+    height: 27px;
+    font-size: 14px;
+    line-height: 27px;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-align: center;
+}
+
